@@ -1,11 +1,6 @@
 const { NotImplementedError } = require('../extensions/index.js');
 
-class ListNode {
-  constructor(value) {
-    this.value = value;
-    this.next = null;
-  }
-}
+const { ListNode } = require('../extensions/list-node.js');
 /**
  * Implement the Queue with a given interface via linked list (use ListNode extension above).
  *

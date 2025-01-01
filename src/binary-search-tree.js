@@ -1,15 +1,13 @@
 const { NotImplementedError } = require('../extensions/index.js');
 
-class Node {
-  constructor(data) {
-    this.data = data;
-    this.left = null;
-    this.right = null;
-  }
-}
+const { Node } = require('../extensions/list-tree.js');
+
+/**
+* Implement simple binary search tree according to task description
+* using Node from extensions
+*/
 
 class BinarySearchTree {
-
   constructor() {
     this.rootNode = null;
   }
